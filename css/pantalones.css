@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Portal-datos{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 2em;
+        margin: 0.9em;
+    }
+    p{
+        margin-top: 12vw;
+        padding-left: 5vw;
+    }
+    
+}
+
+.general{
+    display: flex;
+    background-color:#feefef;
+    width: 100%;
+    height: 100vh; 
+    column-gap: 18em; 
+}
+.Abrigos{
+    background-color: #fff;
+    border-radius: 2em;
+    width: 60%;
+    height: 92.5vh;
+    margin-top: 2vw;
+    border: 1px solid black;
+    flex-flow: wrap; 
+    h2{
+        margin: 2dvh;
+    }  
+}
+.panel{
+    background-color: #fff;
+    width: 40em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    border: 1px solid black;
+    margin: 1.5em;
+
+}
+.general-2{
+    display: flex;
+    margin-top: 2vw;
+
+}
+.panel .camisa{
+    margin-top: 1em;
+    
+}
+.panel .texto{
+    height: 1em;
+    padding: 0.8em;
+}
+.panel .portal-c{
+    display: flex;
+    margin-top: 1em;
+    
+    align-items: center;
+    justify-content: space-around;
+    button{
+        text-decoration: none;
+        font-size: 1.3em;
+        color: black;
+        border-radius: 1em;
+        background-color: rgb(193, 233, 181);
+        width: 4.3em;
+        display: flex;
+        text-align: center;
+        border: none;
+
+    }
+}
