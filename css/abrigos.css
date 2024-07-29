@@ -5,7 +5,7 @@ body{
 .Portal-datos{
     display: flex;
     flex-direction: column;
-    padding-left: 5vw;
+    padding-left: 5em;
     a{
         text-decoration: none;
         color: black;
@@ -13,8 +13,8 @@ body{
         margin: 0.9em;
     }
     p{
-        margin-top: 12vw;
-        padding-left: 5vw;
+        padding-top: 7vw;
+    
     }
     
 }
@@ -24,7 +24,6 @@ body{
     background-color:#feefef;
     width: 100%;
     height: 100vh; 
-    column-gap: 18em; 
 }
 .Abrigos{
     background-color: #fff;
@@ -34,14 +33,21 @@ body{
     margin-top: 2vw;
     border: 1px solid black;
     flex-flow: wrap; 
+    
     h2{
-        margin: 2dvh;
-    }  
+        padding-left: 1em;
+    } 
 }
+/*
+text-indent
+letter-spacing
+line-height
+word-spacing
+white-space
+*/
 .panel{
     background-color: #fff;
     width: 40em;
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,30 +58,26 @@ body{
 }
 .general-2{
     display: flex;
-    margin-top: 2vw;
 
 }
-.panel .camisa{
-    margin-top: 1em;
+.panel .abrigos{
+    padding-top: 1em;
     
 }
 .panel .texto{
-    height: 1em;
-    padding: 0.8em;
+
+    h2{
+        font-size:1.5em;
+    }
 }
 .panel .portal-c{
     display: flex;
-    margin-top: 1em;
-    
     align-items: center;
-    justify-content: space-around;
     button{
-        text-decoration: none;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: black;
         border-radius: 1em;
         background-color: rgb(193, 233, 181);
-        width: 4.3em;
         display: flex;
         text-align: center;
         border: none;
